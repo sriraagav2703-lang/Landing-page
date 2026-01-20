@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #004c97;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Hero */
+.hero {
+    height: 90vh;
+    background: linear-gradient(to right, #004c97, #2d98da);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+    background-color: white;
+    color: #004c97;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Sections */
+.section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color: #004c97;
+}
+
+.section p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f1f2f6;
+    padding: 25px;
+    border-radius: 10px;
+    width: 220px;
+    font-weight: bold;
+}
+
+/* Background */
+.gray {
+    background-color: #f8f9fa;
+}
+
+/* Footer */
+footer {
+    background-color: #004c97;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
